@@ -1,0 +1,107 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+}
+.about{
+    animation-name: col;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+}
+.Abtext{
+    font-size: 18px;
+    font-weight: 200;
+    justify-content: center;
+    text-orientation: upright;
+  
+    
+  
+}
+.aboutp{
+    border-bottom: 1px solid grey;
+    border-bottom-left-radius:50px ;
+}
+.abtext1{
+    font-size: 20px;
+    font-weight: 500; 
+    
+}
+.socail{
+   
+    
+    animation-name: col;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+}
+
+.empty{
+    background-color: rgb(221, 217, 217);
+    height: 100vh;
+    
+    
+    
+    border-top: 2px solid rgb(251, 105, 0);
+    
+    animation-name: col;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+
+   
+}
+@keyframes col{
+    0%{
+        background-color: black;
+        color:rgb(243, 243, 243);
+    }
+    50%{
+        background-color: rgb(55, 55, 55);
+        color:rgb(2, 2, 2);
+    }
+    100%{
+        background-color: rgb(118, 117, 117);
+        color: black;
+    }
+}
+.car{
+    height: 400px;
+    width: 650px;
+}
+.pointer{
+    height: 20px;
+    width: 20px;
+}
+.lastp{
+    margin-bottom: 80px !important;
+}
+.logo1{
+    height: 60px;
+    width: 60px;
+    
+}
+.logo1:hover{
+    animation-name:logo1;
+	animation-duration: 500ms;
+	animation-timing-function: linear; 
+}
+@keyframes logo1{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.wave1{
+    width: 100vw;
+    
+    overflow-x: auto;
+}
